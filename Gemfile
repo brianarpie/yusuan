@@ -28,7 +28,15 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Use Postgres for database
 gem 'pg'
+
+# Use Google+ Omniauth for authentication
+gem 'omniauth-google-oauth2'
+
+# Use Bootstrap
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'pry'
